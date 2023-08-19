@@ -1,0 +1,145 @@
+local cT = 4
+local code = script.Parent.Code
+function Ch(a,b)
+	script.Parent.Parent.Code.Value = string.upper(script.Parent.Code.Value)
+	for i,v in pairs(script.Parent:GetChildren()) do
+		if v.Name == "Front" then
+			v.SurfaceGui.ImageLabel.Image = "rbxassetid://" .. tostring(a)
+		elseif v.Name == "Rear" then
+			v.SurfaceGui.ImageLabel.Image = "rbxassetid://" .. tostring(b)
+		end
+	end
+	script.Parent.Controller.TouchPad.SurfaceGui.Typed.Display.Image = "rbxassetid://" .. tostring(a)
+	wait(cT)
+end
+
+
+while wait() do
+	if code.Value == "nis" then
+		Ch(14297900599,14297900599)
+	elseif code.Value == "ggb" then
+		Ch(14297882111,14297882111)	
+		Ch(14297908101,14297908101)	
+	elseif code.Value == "hire" then
+		Ch(14297912598,14297912598)	
+	elseif code.Value == "bk" then
+		Ch(14362401552,14362401552)
+	elseif code.Value == "exp" then
+		Ch(14297921342,14297921342)	
+	elseif code.Value == "gw" then
+		Ch(14297931185,14297931185)
+	elseif code.Value == "date" then
+		Ch(14384285048,14384285048)
+	elseif code.Value == "dtp" then
+		Ch(14297938788,14297938788)	
+	elseif code.Value == "emc" then
+		Ch(14297942473,14297942473)			
+	elseif code.Value == "ha1y" then
+		Ch(14297951356,14297951356)
+		Ch(14297947010,14297947010)
+	elseif code.Value == "ha1z" then
+		Ch(14297955279,14297955279)
+		Ch(14297947010,14297947010)
+	elseif code.Value == "hcr" then
+		Ch(14297958670,14297958670)
+	elseif code.Value == "hr41y" then
+		Ch(14297966160,14297966160)
+		Ch(14297962697,14297962697)
+	elseif code.Value == "hr41z" then
+		Ch(14297971545,14297971545)
+		Ch(14297962697,14297962697)
+	elseif code.Value == "hr42y" then
+		Ch(14298008277,14298008277)
+		Ch(14298012266,14298012266)
+		Ch(14297975031,14297975031)
+	elseif code.Value == "hr42z" then
+		Ch(14298016498,14298016498)
+		Ch(14298012266,14298012266)
+		Ch(14297975031,14297975031)
+	elseif code.Value == "hr43y" then
+		Ch(14298024380,14298024380)
+		Ch(14298019812,14298019812)
+	elseif code.Value == "hr43z" then
+		Ch(14298029038,14298029038)
+		Ch(14298019812,14298019812)
+	elseif code.Value == "mn" then
+		Ch(14298037244,14298037244)
+	elseif code.Value == "test" then
+		Ch(14298042721,14298042721)
+	elseif code.Value == "meet" then
+		Ch(14298047287,14298047287)
+	elseif code.Value == "priv" then
+		Ch(14298050260,14298050260)
+	elseif code.Value == "regina" then
+		Ch(14338436981,14338436981)
+		Ch(14337528015,14337528015)	
+	elseif code.Value == "res" then
+		Ch(14298055671,14298055671)	
+	elseif code.Value == "sexp" then
+		Ch(14298061587,14298061587)	
+	elseif code.Value == "shutt" then
+		Ch(14298070017,14298070017)	
+	elseif code.Value == "spec" then
+		Ch(14298074933,14298074933)	
+	elseif code.Value == "sta" then
+		Ch(14298078987,14298078987)
+	elseif code.Value == "thief" then
+		Ch(14298086441,14298086441)	
+		Ch(14298090154,14298090154)	
+	elseif code.Value == "sui" then
+		Ch(14298092546,14298092546)	
+	elseif code.Value == "trab" then
+		Ch(14298095158,14298095158)	
+	elseif code.Value == "tenri" then
+		Ch(14298098790,14298098790)	
+	elseif code.Value == "tour" then
+		Ch(14298101832,14298101832)	
+	elseif code.Value == "trail" then
+		Ch(14298106016,14298106016)	
+	elseif code.Value == "yui" then
+		Ch(14298119009,14298119009)	
+	elseif code.Value == "mve" then
+		Ch(14298122138,14298122138)	
+	elseif code.Value == "sca" then
+		Ch(14298125005,14298125005)	
+		Ch(14298127842,14298127842)	
+		Ch(14298130280,14298130280)	
+	elseif code.Value == "mann" then
+		Ch(14298159075,14298159075)	
+		Ch(14298156476,14298156476)	
+		Ch(14298153527,14298153527)	
+	elseif code.Value == "maa" then
+		Ch(14298159075,14298159075)		
+		Ch(14298153527,14298153527)	
+	elseif code.Value == "adl" then
+		Ch(14332048326,14332048326)	
+	elseif code.Value == "e4" then
+		Ch(14332050737,14332050737)	
+	elseif code.Value == "e4l" then
+		Ch(14332053114,14332053114)	
+		Ch(14332055812,14332055812)	
+	elseif code.Value == "e6" then
+		Ch(14332059458,14332059458)	
+	elseif code.Value == "e6l" then
+		Ch(14332062414,14332062414)	
+		Ch(14332064895,14332064895)	
+	elseif code.Value == "ret" then
+		Ch(14332087121,14332087121)	
+	elseif code.Value == "shik" then
+		Ch(14338466133,14338466133)	
+	elseif code.Value == "ayi" then
+		Ch(14338682286,14338682286)	
+		Ch(14338689834,14338689834)	
+		Ch(14338692608,14338692608)	
+		Ch(14338695546,14338695546)	
+	elseif code.Value == "abb" then
+		Ch(14368384413,14368384413)	
+		Ch(14368390458,14368390458)	
+		Ch(14368393035,14368393035)
+	elseif code.Value == "np" then
+		Ch(14384298945,14384298945)	
+		Ch(14384302059,14384302059)
+	else
+		Ch(12781220488,12781220488)
+	end
+end
